@@ -11,29 +11,35 @@ header {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 40px 0;
 }
 
 header h1 {
     margin: 0;
+    font-size: 36px;
 }
 
 header p {
     margin: 5px 0 10px;
+    font-size: 18px;
+}
+
+/* Estilos para los títulos de sección */
+h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
 }
 
 /* Estilos para proyectos destacados */
-#projects {
-    max-width: 800px;
-    margin: 20px auto;
-}
-
 .project {
     margin-bottom: 20px;
 }
 
 .project h3 {
     margin: 0;
+    font-size: 20px;
 }
 
 .project p {
@@ -44,10 +50,47 @@ header p {
     display: block;
 }
 
-/* Estilos para el pie de página */
-footer {
+/* Estilos para el apartado de skills */
+#skills {
     text-align: center;
-    padding: 10px;
+}
+
+#skills li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#skills i {
+    margin-right: 10px;
+}
+
+/* Estilos para el footer */
+footer {
     background-color: #f9f9f9;
-    border-top: 1px solid #ddd;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+footer ul {
+    margin-top: 10px;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer a {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilos adicionales para iconos enlaces */
+footer a:hover {
+    color: #007bff;
 }
