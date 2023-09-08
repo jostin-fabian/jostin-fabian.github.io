@@ -97,6 +97,42 @@ h2 {
     transform: scale(1.05);
 }
 
+/* Estilos para la sección de Idiomas */
+#languages {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.language {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.language h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.progress {
+    background-color: #ccc;
+    height: 20px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    background-color: #007bff;
+    height: 100%;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+}
+
+
 /* Estilos para el footer */
 footer {
     background-color: #f9f9f9;
