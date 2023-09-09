@@ -81,6 +81,7 @@ header a.btn {
     background-color: #f9f9f9;
     padding: 50px 0;
 }
+
 .skills-container {
     display: flex;
     flex-wrap: wrap;
@@ -167,6 +168,12 @@ header a.btn {
 #contact p {
     font-size: 18px;
     margin: 20px 0;
+}
+
+.email-icon {
+    font-size: 5rem;
+    color: #000000;
+    margin-bottom: 1rem;
 }
 
 #email-button {
