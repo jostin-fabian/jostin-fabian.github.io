@@ -1,0 +1,211 @@
+/* Reset de estilos */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+header a.btn {
+    margin-top: 20px;
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Estilos para la sección "Sobre mí" */
+#about {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+#about p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* Estilos para la sección "Proyectos Destacados" */
+#projects {
+    padding: 50px 0;
+}
+
+.project {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.project p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.project a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Estilos para la sección "Habilidades y Tecnologías" */
+#skills {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.skills-category {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skills-category h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.skills-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-category ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.skills-category ul li i {
+    margin-right: 5px;
+    color: #007bff;
+}
+
+
+.skills-category ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Estilos para la sección "Idiomas" */
+#languages {
+    padding: 50px 0;
+}
+
+.language {
+    margin-bottom: 20px;
+}
+
+.language h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.progress {
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    height: 100%;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #007bff;
+}
+
+/* Estilos para la sección "Contacto" */
+#contact {
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px 0;
+}
+
+#contact h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+#contact p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+#email-button {
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.social-buttons li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.page-scroll {
+    margin-top: 20px;
+}
+
+#rocket {
+    width: 40px;
+    height: 40px;
+}
+
+#to-top-copy {
+    font-size: 18px;
+}
+
+.copyright p {
+    font-size: 14px;
+    margin-top: 20px;
+}
