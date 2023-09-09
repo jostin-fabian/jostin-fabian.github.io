@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="page-top">
         <div class="container">
             <h1>Jostin Fabian Cabascango Chavez</h1>
             <p>Backend Developer</p>
@@ -176,35 +176,58 @@
             </div>
         </section>
 
+        <!-- Section: Contact -->
+        <section id="contact">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-10 text-center">
+                        <div class="email-icon"><i class="fa fa-paper-plane" aria-hidden="true"></i></div>
+                        <h2>PÓNGASE EN CONTACTO CON NOSOTROS</h2>
+                        <p>¡Si tienes alguna idea de proyecto o simplemente quieres charlar, no dudes en enviarme un
+                            correo electrónico!</p>
+                        <p style="margin-top: 20px;">
+                            <a id="email-button" href="mailto:jostinfabian14@gmail.com" target="_blank">Enviar
+                                Correo</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
-
     <footer>
         <div class="container">
-            <p>Contacto: jostinfabian@gmail.com | Enlaces a tus redes sociales</p>
-            <ul class="list-unstyled">
-                <!--Twitter-->
-                <li>
-                    <a href="https://twitter.com/JostinFabianC" target="_blank">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </li>
-                <!--Linkedin-->
-                <li>
-                    <a href="https://www.linkedin.com/in/jostin-fabian-cabascango-chavez-2b267a213" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </li>
-                <!--GitHub-->
-                <li>
-                    <a href="https://github.com/jostinfabian" target="_blank">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                </li>
-            </ul>
-
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <ul class="list-inline social-buttons animated fadeIn">
+                        <!-- Twitter Button -->
+                        <li><a id="twitter" href="https://twitter.com/JostinFabianC" target="_blank"><i
+                                    class="fab fa-twitter"></i></a></li>
+                        <!-- GitHub Button -->
+                        <li><a id="github" href="https://github.com/jostin-fabian" target="_blank"><i
+                                    class="fab fa-github"></i></a></li>
+                        <!-- LinkedIn Button -->
+                        <li><a id="linkedin"
+                                href="https://www.linkedin.com/in/jostin-fabian-cabascango-chavez-2b267a213/"
+                                target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                    <div class="page-scroll">
+                        <a id="to-top" class="page-scroll" href="#page-top">
+                            <img id="rocket" src="icons8-rocket-94.png">
+                        </a>
+                        <p id="to-top-copy">Beam me up, Scotty!</p>
+                    </div>
+                    <div class="copyright">
+                        <!-- please don't steal my stuff without permission -->
+                        <p><i class="fa fa-copyright"></i> Jostin Cabascango 2023</p>
+                    </div>
+                </div>
+            </div>
         </div>
+        <!-- container -->
     </footer>
+
+
 
     <!-- Enlace a los archivos JavaScript de Bootstrap y jQuery desde un CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
